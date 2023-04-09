@@ -18,7 +18,8 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  -- colorscheme = "astrodark",
+  colorscheme = "sand",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -82,4 +83,9 @@ return {
     --   },
     -- }
   end,
+  cmd = {
+    "highlight Normal guibg=NONE",
+
+  }
 }
+
